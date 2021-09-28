@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 顶部栏 -->
+<header>
+    <i class="goIcon iconfont">
+        </i>
+            <span class="topText">个人资料</span>
+</header>
+<main>
+    <label for="js_input2" class="weui-cell weui-cell_active">
+        <div class="weui-cell__hd"><span class="weui-label">昵称</span></div>
+        <div class="weui-cell__bd">
+            <input id="js_input2" class="weui-input" placeholder="用户名" />
+        </div>
+    </label>
+
+
+
+
+    <!--  -->
+    <div class="weui-cells">
+        <a id="gender" aria-labelledby="js_cell_tl1_tips js_cell_tl1_link" class="weui-cell weui-cell_access"
+            href="javascript:">
+            <span class="weui-cell__bd" id="js_cell_tl1_tips" aria-hidden="true">
+                <span>性别</span>
+            </span>
+            <span class="weui-cell__ft alertGender" aria-hidden="true" id="js_cell_tl1_link">男</span>
+        </a>
+        <a id="years" aria-labelledby="js_cell_tl2_tips js_cell_tl2_link" class="weui-cell  weui-cell_access"
+            href="javascript:">
+            <span class="weui-cell__bd" aria-hidden="true" id="js_cell_tl2_tips">
+                <span>生日</span>
+            </span>
+            <span class="weui-cell__ft alertYears" aria-hidden="true" id="js_cell_tl2_link">2020-11-11</span>
+        </a>
+        <a aria-labelledby="js_cell_tl2_tips js_cell_tl2_link" class="weui-cell  weui-cell_access province" href="javascript:">
+            <span class="weui-cell__bd" aria-hidden="true" id="js_cell_tl2_tips">
+                <span>所在省份</span>
+            </span>
+            <span class="weui-cell__ft  provincetext" aria-hidden="true" id="js_cell_tl2_link">请选择</span>
+        </a>
+        <a aria-labelledby="js_cell_tl2_tips js_cell_tl2_link" class="weui-cell  weui-cell_access city" href="javascript:">
+            <span class="weui-cell__bd" aria-hidden="true" id="js_cell_tl2_tips">
+                <span>所在城市</span>
+            </span>
+            <span class="weui-cell__ft citytext" aria-hidden="true" id="js_cell_tl2_link">请选择</span>
+        </a>
+
+    </div>
+
+    <!-- 个人简介 -->
+    <div class="page">
+        <div class="weui-form__control-area">
+            <div class="weui-cells__group weui-cells__group_form">
+                <div class="weui-cells__title">个人简介</div>
+                <div class="contentBox weui-cells weui-cells_form">
+                    <div class="weui-cell box">
+                        <div class="weui-cell__bd">
+                            <textarea class="weui-textarea" placeholder="多行输入" rows="3"></textarea>
+                            <div role="option" aria-live="polite" class="weui-textarea-counter"><span>0</span>/140字
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="weui-form__opr-area">
+            <a role="button" class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">保存信息</a>
+        </div>
+    </div>
+    </div>
+
+</main>
+</body>
+</html>
